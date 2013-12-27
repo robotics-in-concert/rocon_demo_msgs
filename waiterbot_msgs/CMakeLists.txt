@@ -17,6 +17,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   DrinkOrder.msg
+  DrinkOrderFeedback.msg
 )
 
 ## Generate services in the 'srv' folder

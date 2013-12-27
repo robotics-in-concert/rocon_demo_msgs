@@ -1,6 +1,6 @@
 # DrinkOrderFeedback. 
 # Robot notifies tablet
-int16 command
+int16 feedback
 
 # Message is only used when robot is in error status
 string message
