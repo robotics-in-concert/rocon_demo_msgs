@@ -1,9 +1,8 @@
-# DrinkOrderFeedback. 
-# Robot notifies tablet
-int16 feedback
+# Status of the navigation controller
+int16 status_code
 
 # Message is only used when robot is in error status
-string message
+string status_message
 
 int16 ACCEPTED       = 1
 int16 VM_ARRIVAL     = 2
