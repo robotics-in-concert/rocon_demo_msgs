@@ -18,6 +18,8 @@ add_message_files(
   OrderList.msg
   Order.msg
   Status.msg
+  RemoteOrder.msg
+  RemoteOrderList.msg
 )
 
 ## Generate services in the 'srv' folder
