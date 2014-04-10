@@ -1,3 +1,5 @@
+int16 status
+
 int16 ORDER_RECEIVED        = 0
 int16 ORDER_IN_PREPARATION  = 1
 int16 ORDER_PREPARED        = 2
