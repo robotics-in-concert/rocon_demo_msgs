@@ -1,3 +1,3 @@
-ar_track_alvar/AlvarMarker[] data
+ar_track_alvar_msgs/AlvarMarker[] data
 ---
 bool success
