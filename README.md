@@ -6,6 +6,7 @@ it contains demo related messages.
 ## Simple Delivery Message
 ### Message
 * simple_delivery_msgs/Receiver.msg
+  
   ```
   int8 DELIVERY_IDLE                = 1
   int8 GO_TO_RECEIVER               = 2
@@ -18,7 +19,9 @@ it contains demo related messages.
   int16 qty
   int8 order_status
   ```
+  
 * simple_delivery_msgs/DeliveryOrder.msg
+  
   ```
   int16 id
   Receiver[] receivers
@@ -26,6 +29,7 @@ it contains demo related messages.
 
 ### Action
 * simple_delivery_msgs/RobotDeliveryOrder.action
+  
   ```
   #Action Goal
   
