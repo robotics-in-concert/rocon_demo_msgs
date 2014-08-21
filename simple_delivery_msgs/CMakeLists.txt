@@ -9,8 +9,16 @@ find_package(catkin REQUIRED COMPONENTS
 add_action_files(
   DIRECTORY action
   FILES
-  DeliverOrder.action
+  RobotDeliveryOrder.action
 )
+
+## Generate msgs in the 'msg' folder
+add_message_files(
+  DIRECTORY msg
+  FILES
+  Receiver.msg
+  DeliveryOrder.msg
+  )
 
 generate_messages(
   DEPENDENCIES

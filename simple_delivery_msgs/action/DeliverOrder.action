@@ -1,6 +1,0 @@
-string location
----
-bool success
-string message
----
-string status
