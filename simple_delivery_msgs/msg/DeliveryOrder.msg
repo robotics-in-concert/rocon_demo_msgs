@@ -1,2 +1,2 @@
-string id
+string order_id
 Receiver[] receivers

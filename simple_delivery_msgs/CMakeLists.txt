@@ -5,13 +5,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation std_msgs actionlib_msgs
 )
 
-## Generate service in the 'srv' folder
-add_service_files(
-  DIRECTORY srv
-  FILES
-  GetRobotStatus.srv
-)
-
 ## Generate actions in the 'action' folder
 add_action_files(
   DIRECTORY action
@@ -25,6 +18,7 @@ add_message_files(
   FILES
   Receiver.msg
   DeliveryOrder.msg
+  DeliveryStatus.msg
   )
 
 generate_messages(
