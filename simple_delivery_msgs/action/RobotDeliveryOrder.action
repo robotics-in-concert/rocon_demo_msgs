@@ -1,10 +1,14 @@
 #Action Goal
+
 string order_id
 string[] locations
 ---
 #Action Result
 
+string order_id
 bool success
 string message
 ---
+#Action Feedback
+
 DeliveryStatus delivery_status
