@@ -19,6 +19,8 @@ add_message_files(
   Receiver.msg
   DeliveryOrder.msg
   DeliveryStatus.msg
+  Order.msg
+  OrderList.msg
   )
 
 generate_messages(
