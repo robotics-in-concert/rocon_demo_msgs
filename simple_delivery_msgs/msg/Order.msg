@@ -1,0 +1,3 @@
+string order_id
+string robot
+DeliveryStatus status
