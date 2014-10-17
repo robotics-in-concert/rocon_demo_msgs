@@ -1,3 +1,4 @@
 string order_id
 string robot
-DeliveryStatus status
+string[] menus
+int8 status
