@@ -1,0 +1,2 @@
+int8 robot_status
+float32 battery_status

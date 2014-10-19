@@ -21,6 +21,7 @@ add_message_files(
   DeliveryStatus.msg
   Order.msg
   OrderList.msg
+  RobotStatus.msg
   )
 
 generate_messages(
