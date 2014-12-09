@@ -12,7 +12,9 @@ add_message_files(DIRECTORY msg
                         ErrorCodes.msg)
 
 add_action_files(DIRECTORY action
-                 FILES DrinkOrder.action)
+                 FILES DrinkOrder.action
+                       Interactor.action 
+                )
 
 generate_messages(DEPENDENCIES actionlib_msgs
                                std_msgs)
