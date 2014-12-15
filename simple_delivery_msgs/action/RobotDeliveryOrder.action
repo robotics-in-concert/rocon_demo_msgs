@@ -2,6 +2,7 @@
 
 string order_id
 string[] locations
+string[] menus
 ---
 #Action Result
 
