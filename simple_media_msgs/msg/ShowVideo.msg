@@ -1,0 +1,2 @@
+string screen_id
+string video_url

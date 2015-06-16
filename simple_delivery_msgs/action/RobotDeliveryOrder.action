@@ -1,0 +1,15 @@
+#Action Goal
+
+string order_id
+string[] locations
+string[] menus
+---
+#Action Result
+
+string order_id
+bool success
+string message
+---
+#Action Feedback
+
+DeliveryStatus delivery_status

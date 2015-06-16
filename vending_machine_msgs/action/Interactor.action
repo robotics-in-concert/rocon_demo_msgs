@@ -1,0 +1,14 @@
+# Request
+int8 command
+int32[] drinks # in vending_machine_msgs/DrinkType
+
+int8 APPROACH_VM = 10
+int8 ORDER_DRINK = 20
+int8 BACK_FROM_VM= 30
+---
+# Response
+bool success
+string message
+---
+# Feedback
+string message
