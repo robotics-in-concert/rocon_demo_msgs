@@ -1,0 +1,7 @@
+#Action Goal
+---
+#Action Result
+bool success
+diagnostic_msgs/KeyValue[] is_detected
+---
+#Action Feedback
