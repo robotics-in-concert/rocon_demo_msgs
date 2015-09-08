@@ -1,0 +1,16 @@
+#Action Goal
+
+string order_id
+string from
+string to
+string message
+---
+#Action Result
+
+string order_id
+bool success
+string message
+---
+#Action Feedback
+
+P2PDeliveryStatus delivery_status
