@@ -10,7 +10,7 @@ add_action_files(
   DIRECTORY action
   FILES
   RobotDeliveryOrder.action
-  P2PDeliveryOrderAction.action
+  P2PDeliveryOrder.action
 )
 
 ## Generate msgs in the 'msg' folder
