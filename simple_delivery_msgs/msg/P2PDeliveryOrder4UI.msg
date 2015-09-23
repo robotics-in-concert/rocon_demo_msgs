@@ -1,4 +1,4 @@
-int16 id
+string id
 string from
 string to
 string message
