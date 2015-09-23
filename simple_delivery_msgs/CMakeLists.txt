@@ -23,7 +23,7 @@ add_message_files(
   Order.msg
   OrderList.msg
   RobotStatus.msg
-  P2PDeliveryOrder.msg
+  P2PDeliveryOrder4UI.msg
   P2PDeliveryStatus.msg
   )
 
