@@ -1,8 +1,8 @@
 #Action Goal
 
 string order_id
-string from
-string to
+string sender
+string receiver
 string message
 ---
 #Action Result

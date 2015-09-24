@@ -1,4 +1,4 @@
 string id
-string from
-string to
+string sender
+string receiver
 string message
